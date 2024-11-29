@@ -1,0 +1,22 @@
+/* Estilo general para el body */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/FondoPagina.png'); /* Fondo de la página */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo del contenedor del juego */
+#game-container {
+    width: 800px; /* Ajusta el tamaño del contenedor como lo desees */
+    height: 600px; /* Ajusta el tamaño del contenedor como lo desees */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra en los bordes */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    position: relative; /* Para posicionar el fondo correctamente */
+}
